@@ -40,6 +40,40 @@ a {
   background-image: url(./Images/StubrewIcedCoffee.png);
   background-size: cover;
 }
+
+/* START OF SHOP COFFEE, TEA & EQUIPMENT SECTION */
+
+.padShop {
+  padding: 100px 0px 100px 0px;
+}
+
+.shopContainer {
+  width: 100%;
+  padding: 200px, 0px, 200px, 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.buyCoffee, .buyTea, .buyEquipment {
+  width: 320px;
+  height: 320px;
+  border-radius: 200px;
+}
+
+.textContainer {
+  width: 100%;
+  padding: 200px, 0px, 200px, 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+
+/* END OF SHOP COFFEE, TEA & EQUIPMENT SECTION */
+
 .section_4 {
   display: flex;
   flex: 1;
@@ -156,3 +190,4 @@ ol {
   height: 50px;
   width: 50px;
 }
+
