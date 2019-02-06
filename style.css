@@ -2,14 +2,14 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: gil;
 }
 
 header {
   top: 0;
   display: flex;
   text-align: center;
-  background-color: rgb(42, 42, 46);
+  height: 80px;
+  background-color: rgb(18, 18, 31);
 }
 
 nav {
@@ -17,21 +17,27 @@ nav {
   justify-content: space-evenly;
   flex-direction: row;
   flex-grow: 1;
-  padding: 0px 250px;
+  padding: 0 200px;
   flex-wrap: wrap;
   color: white;
+  font-size: 20px;
 }
 
-.container_1 {
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.section_1 {
   height: 100vh;
   width: 100%;
   background-image: url(./Images/StubucksHero.jpg);
   background-size: cover;
 }
-.container_2 {
+.section_2 {
   height: 100vh;
   width: 100%;
-  background-image: url(./Images/somethingNew.png);
+  background-image: url(./Images/StubrewIcedCoffee.png);
   background-size: cover;
 }
 
@@ -67,3 +73,121 @@ nav {
 
 
 /* END OF SHOP COFFEE, TEA & EQUIPMENT SECTION */
+
+.section_4 {
+  display: flex;
+  flex: 1;
+  height: 400px;
+  width: 100%;
+  background-color: gray;
+}
+
+.logo {
+  position: absolute;
+  height: 150px;
+  width: 150px;
+  top: 20px;
+  left: 48px;
+  padding-left: 20px;
+  overflow: auto;
+}
+
+.text_box_1 {
+  display: absolute;
+  padding: 0;
+  margin: 0;
+  color: white;
+}
+
+.landing_page {
+  position: absolute;
+  height: 89px;
+  left: 120px;
+  top: 320px;
+  font-size: 92px;
+}
+.landing_info {
+  position: absolute;
+  width: 612px;
+  height: 40px;
+  font-size: 25px;
+  left: 120px;
+  top: 490px;
+}
+
+.love {
+  color: rgb(73, 145, 73);
+}
+
+.choose_coffee {
+  position: absolute;
+  width: 225px;
+  height: 50px;
+  left: 120px;
+  top: 580px;
+  border-radius: 20px 0;
+  background-color: rgb(18, 18, 31);
+  color: white;
+  font-size: 20px;
+}
+
+#help,
+#about_us,
+#company_info,
+#share {
+  font-size: 35px;
+  font-weight: 700;
+}
+
+li {
+  list-style-type: none;
+  font-size: 25px;
+}
+
+ol {
+  /* display: flex; */
+  justify-content: space-evenly;
+  flex: 1;
+  flex-direction: row;
+}
+
+.share_icons {
+  display: flex;
+  flex: 1;
+}
+
+.fb {
+  background-image: url(./Icons/icon-facebook.png);
+  background-size: 100%;
+  height: 50px;
+  width: 50px;
+}
+
+.insta {
+  background-image: url(./Icons/icon-instagram.png);
+  background-size: 100%;
+  height: 50px;
+  width: 50px;
+}
+
+.linked {
+  background-image: url(./Icons/icon-linkedin.png);
+  background-size: 100%;
+  height: 50px;
+  width: 50px;
+}
+
+.twitter {
+  background-image: url(./Icons/icon-twitter.png);
+  background-size: 100%;
+  height: 50px;
+  width: 50px;
+}
+
+.pin {
+  background-image: url(./Icons/icon-pinterest.png);
+  background-size: 100%;
+  height: 50px;
+  width: 50px;
+}
+
