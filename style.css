@@ -46,8 +46,27 @@ a {
 .section_2 {
   height: 100vh;
   width: 100%;
-  background-image: url(./Images/StubrewIcedCoffee.png);
-  background-size: cover;
+  background-color: rgb(18, 18, 31);
+  margin: 0;
+  padding: 0;
+}
+
+.section_two_heading {
+  height: 50px;
+  background-color: white;
+  color: black;
+  text-align: center;
+  font-size: 55px;
+  padding: 0;
+  margin: 0;
+}
+
+.iceCoffee {
+  position: absolute;
+  left: 180px;
+  top: 1050px;
+  height: 600px;
+  width: 400px;
 }
 
 /* START OF SHOP COFFEE, TEA & EQUIPMENT SECTION */
