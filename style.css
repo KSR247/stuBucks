@@ -26,10 +26,23 @@ nav {
   display: flex;
   flex-direction: row;
   font-size: 10px;
-  flex-grow: 1;
-  flex-wrap: wrap;
+}
+
+.shipping {
+  width: 80%;
+  text-align: center;
+}
+
+.nearestStore {
+  right: 0;
+  background: #067655;
   color: white;
-  font-size: 7px;
+  width: 20%;
+  text-align: center;
+}
+
+.offer {
+  margin: 2px;
 }
 
 a {
@@ -128,22 +141,6 @@ a {
   color: white;
 }
 
-.shipping {
-  width: 80%;
-  text-align: center;
-}
-
-.nearestStore {
-  right: 0;
-  background: #067655;
-  color: white;
-  width: 20%;
-  text-align: center;
-}
-
-.offer {
-  color: black;
-}
 .logo {
   position: absolute;
   height: 150px;
