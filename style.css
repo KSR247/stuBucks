@@ -5,6 +5,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: 'Roboto Slab', serif;
+
 }
 
 header {
@@ -28,10 +29,23 @@ nav {
   display: flex;
   flex-direction: row;
   font-size: 10px;
-  flex-grow: 1;
-  flex-wrap: wrap;
+}
+
+.shipping {
+  width: 80%;
+  text-align: center;
+}
+
+.nearestStore {
+  right: 0;
+  background: #067655;
   color: white;
-  font-size: 7px;
+  width: 20%;
+  text-align: center;
+}
+
+.offer {
+  margin: 2px;
 }
 
 a {
@@ -54,21 +68,45 @@ a {
 }
 
 .section_two_heading {
-  height: 50px;
+  /* height: 60px; */
+  font-weight: 700;
   background-color: white;
   color: black;
   text-align: center;
-  font-size: 55px;
-  padding: 0;
+  font-size: 36px;
   margin: 0;
+}
+
+.new-tag {
+  color: #067655;
+}
+
+.section_2_info {
+  position: absolute;
+  top: 1100px;
+  color: white;
+  margin-left: 50%;
+  margin-right: 10%;
+  font-size: 36px;
+  text-align: right;
+}
+
+.section_2_heading {
+  font-size: 72px;
+  font-weight: 500;
+}
+
+.stuBrew-tag,
+.nitroBrew-tag {
+  color: #067655;
 }
 
 .iceCoffee {
   position: absolute;
-  left: 180px;
-  top: 1050px;
-  height: 600px;
-  width: 400px;
+  left: 120px;
+  top: 1000px;
+  height: 630px;
+  width: 480px;
 }
 
 /* START OF SHOP COFFEE, TEA & EQUIPMENT SECTION */
@@ -108,6 +146,7 @@ a {
   font-size: 18px;
   margin: 25px;
   font-family: 'Roboto Slab: 300', serif;
+
 }
 
 .shopContainer {
@@ -166,22 +205,6 @@ hr {
   color: white;
 }
 
-.shipping {
-  width: 80%;
-  text-align: center;
-}
-
-.nearestStore {
-  right: 0;
-  background: #067655;
-  color: white;
-  width: 20%;
-  text-align: center;
-}
-
-.offer {
-  color: black;
-}
 .logo {
   position: absolute;
   height: 150px;
