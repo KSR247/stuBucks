@@ -2,14 +2,13 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: gil;
 }
 
 header {
-  top: 0;
   display: flex;
   text-align: center;
-  height: 80px;
-  background-color: rgb(18, 18, 31);
+  background-color: rgb(42, 42, 46);
 }
 
 nav {
@@ -21,6 +20,16 @@ nav {
   flex-wrap: wrap;
   color: white;
   font-size: 20px;
+}
+
+.offerBar {
+  display: flex;
+  flex-direction: row;
+  font-size: 10px;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  color: white;
+  font-size: 7px;
 }
 
 a {
@@ -37,8 +46,27 @@ a {
 .section_2 {
   height: 100vh;
   width: 100%;
-  background-image: url(./Images/StubrewIcedCoffee.png);
-  background-size: cover;
+  background-color: rgb(18, 18, 31);
+  margin: 0;
+  padding: 0;
+}
+
+.section_two_heading {
+  height: 50px;
+  background-color: white;
+  color: black;
+  text-align: center;
+  font-size: 55px;
+  padding: 0;
+  margin: 0;
+}
+
+.iceCoffee {
+  position: absolute;
+  left: 180px;
+  top: 1050px;
+  height: 600px;
+  width: 400px;
 }
 
 /* START OF SHOP COFFEE, TEA & EQUIPMENT SECTION */
@@ -59,7 +87,9 @@ a {
   text-align: center;
 }
 
-.buyCoffee, .buyTea, .buyEquipment {
+.buyCoffee,
+.buyTea,
+.buyEquipment {
   width: 320px;
   height: 320px;
   border-radius: 200px;
@@ -81,7 +111,6 @@ hr {
   margin: 0px 150px 0px 150px;
 }
 
-
 /* END OF SHOP COFFEE, TEA & EQUIPMENT SECTION */
 
 .section_4 {
@@ -92,6 +121,39 @@ hr {
   background-color: gray;
 }
 
+.logo {
+  position: absolute;
+  height: 150px;
+  width: 150px;
+  top: 20px;
+  left: 48px;
+  padding-left: 20px;
+  overflow: auto;
+}
+
+.text_box_1 {
+  display: absolute;
+  padding: 0;
+  margin: 0;
+  color: white;
+}
+
+.shipping {
+  width: 80%;
+  text-align: center;
+}
+
+.nearestStore {
+  right: 0;
+  background: #067655;
+  color: white;
+  width: 20%;
+  text-align: center;
+}
+
+.offer {
+  color: black;
+}
 .logo {
   position: absolute;
   height: 150px;
@@ -124,7 +186,6 @@ hr {
   left: 120px;
   top: 490px;
 }
-
 .love {
   color: rgb(73, 145, 73);
 }
@@ -200,4 +261,3 @@ ol {
   height: 50px;
   width: 50px;
 }
-
