@@ -326,8 +326,8 @@ li {
 }
 
 .footer {
-  background: #0E141D;
-  color: #FFFFFF;
+  background: #0e141d;
+  color: #ffffff;
   font-size: 16px;
   margin: 0px;
   height: 125px;
@@ -346,18 +346,17 @@ li {
   text-align: right;
 }
 
-ol{
-  padding: 0
+ol {
+  padding: 0;
 }
 
-.white_down_arrow{
+.white_down_arrow {
   width: 61px;
-  height:46px;
+  height: 46px;
   padding-top: 29px;
 }
 
-.white_arrow_container{
+.white_arrow_container {
   display: flex;
   justify-content: center;
 }
-
