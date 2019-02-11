@@ -20,6 +20,7 @@ nav {
   flex-wrap: wrap;
   color: white;
   font-size: 20px;
+  height: 80px;
 }
 
 .offerBar {
@@ -119,9 +120,13 @@ a {
 .section_4 {
   display: flex;
   flex: 1;
-  height: 400px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  height: 611px;
   width: 100%;
-  background-color: gray;
+  background-color:#E7E7E7;
+  line-height: 35px;
+ 
 }
 
 .logo {
@@ -150,6 +155,7 @@ a {
   padding-left: 20px;
   overflow: auto;
 }
+
 
 .text_box_1 {
   display: absolute;
@@ -188,63 +194,75 @@ a {
   color: white;
   font-size: 20px;
 }
+.help, .company_info, .about_us{
+  width: 40%;
+
+}
+
 
 #help,
 #about_us,
 #company_info,
 #share {
-  font-size: 35px;
+  font-size: 28px;
   font-weight: 700;
+  padding-bottom: 20px;
 }
 
 li {
   list-style-type: none;
-  font-size: 25px;
-}
-
-ol {
-  /* display: flex; */
-  justify-content: space-evenly;
-  flex: 1;
-  flex-direction: row;
+  font-size: 20px;
+  
 }
 
 .share_icons {
   display: flex;
-  flex: 1;
+  justify-content: space-between;
+  width: 220px;
 }
 
 .fb {
   background-image: url(./Icons/icon-facebook.png);
   background-size: 100%;
-  height: 50px;
-  width: 50px;
+  height: 32px;
+  width: 32px;
 }
 
 .insta {
   background-image: url(./Icons/icon-instagram.png);
   background-size: 100%;
-  height: 50px;
-  width: 50px;
+  height: 32px;
+  width: 32px;
 }
 
 .linked {
   background-image: url(./Icons/icon-linkedin.png);
   background-size: 100%;
-  height: 50px;
-  width: 50px;
+  height: 32px;
+  width: 32px;
 }
 
 .twitter {
   background-image: url(./Icons/icon-twitter.png);
   background-size: 100%;
-  height: 50px;
-  width: 50px;
+  height: 32px;
+  width: 32px;
 }
 
 .pin {
   background-image: url(./Icons/icon-pinterest.png);
   background-size: 100%;
-  height: 50px;
-  width: 50px;
+  height: 32px;
+  width: 32px;
+}
+
+.customer_service{
+  display: flex;
+  width: 50%;
+  flex-wrap: wrap;
+  padding-left: 245px;
+
+}
+ol{
+  padding: 0
 }
