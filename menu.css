@@ -1,6 +1,29 @@
 .menuContainer {
+  box-sizing: border-box;
   display: grid;
   grid-template-columns: [first]40% [end]60%;
-  grid-template-rows: 80px 80px; 
-  grid-gap: 15px 10px;
+}
+
+.menu {
+  /* flex-direction: column; */
+}
+
+.drinks {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, 80px);
+  grid-gap: 3px;
+  /* grid-template-areas: 
+    "nav nav"
+    "selection selection"
+    "selection selection"
+    "selection selection"
+    "selection selection";  */
+}
+
+.nav {
+  grid-column: 1/ -1;
+}
+.selection {
+  /* grid-template-columns: repeat(2, 1fr) */
 }
