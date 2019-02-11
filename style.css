@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:300,700');
+
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Roboto Slab', serif;
+
 }
 
 header {
@@ -106,12 +110,43 @@ a {
 }
 
 /* START OF SHOP COFFEE, TEA & EQUIPMENT SECTION */
-.stuShop {
-  top: 0;
-  display: flex;
+
+.arrowDown img {
+  position: absolute;
+  left: 690px;
+  height: 60px;
+  width: 60px; 
+  margin-top: 20px;
+}
+
+.stuShopBanner {
+  height: 100px;
+  background-color:#2B706F;
+  font-size: 36px;
+}
+
+.stuShopBannerTextA {
+  position: relative;
+  top: 25%;
+  margin: 0px;
   text-align: center;
-  height: 80px;
-  background-color: turquoise;
+  color: white; 
+}
+
+.stuShopBannerTextB {
+  color: black; 
+}
+
+.colStuShop h4 {
+  font-size: 36px;
+  margin: 25px;
+}
+
+.colStuShop p {
+  font-size: 18px;
+  margin: 25px;
+  font-family: 'Roboto Slab: 300', serif;
+
 }
 
 .shopContainer {
@@ -138,12 +173,8 @@ a {
   padding: 100px 0px 100px 0px;
 }
 
-.column h4 {
-  font-size: 20px;
-}
-
 hr {
-  border-top: 3px solid black;
+  border-top: 1px solid black;
   margin: 0px 150px 0px 150px;
 }
 
