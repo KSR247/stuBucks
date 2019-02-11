@@ -103,7 +103,7 @@ a {
 .iceCoffee {
   position: absolute;
   left: 120px;
-  top: 1000px;
+  top: 1050px;
   height: 630px;
   width: 480px;
 }
@@ -320,6 +320,7 @@ li {
   flex-wrap: wrap;
   padding-left: 245px;
 }
+
 
 ol{
   padding: 0
