@@ -110,6 +110,10 @@ a {
 
 /* START OF SHOP COFFEE, TEA & EQUIPMENT SECTION */
 
+.section_3 {
+  margin: 0px 130px 0px 130px;
+}
+
 .arrowDown img {
   position: absolute;
   left: 690px;
@@ -321,6 +325,26 @@ li {
   padding-left: 245px;
 }
 
+.footer {
+  background: #0E141D;
+  color: #FFFFFF;
+  font-size: 16px;
+  margin: 0px;
+  height: 125px;
+  display: flex;
+  padding: 30px 0px 0px 0px;
+}
+
+.footerLeft {
+  display: flex;
+  margin-left: 100px;
+}
+
+.footerRight {
+  display: flex;
+  margin-left: 100px;
+  text-align: right;
+}
 
 ol{
   padding: 0
@@ -335,9 +359,5 @@ ol{
 .white_arrow_container{
   display: flex;
   justify-content: center;
-}
-
-ol {
-  padding: 0;
 }
 
