@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto+Slab:300,700");
 
+
 body {
   margin: 0;
   padding: 0;
@@ -17,6 +18,7 @@ nav {
   display: flex;
   justify-content: space-evenly;
   flex-direction: row;
+  align-items: center;
   flex-grow: 1;
   padding: 0 200px;
   flex-wrap: wrap;
@@ -322,7 +324,7 @@ li {
 }
 
 
-ol{
+._icons{
   padding: 0
 }
 
@@ -337,7 +339,4 @@ ol{
   justify-content: center;
 }
 
-ol {
-  padding: 0;
-}
 
