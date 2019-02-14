@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto+Slab:300,700");
 
+
 body {
   margin: 0;
   padding: 0;
@@ -17,6 +18,7 @@ nav {
   display: flex;
   justify-content: space-evenly;
   flex-direction: row;
+  align-items: center;
   flex-grow: 1;
   padding: 0 200px;
   flex-wrap: wrap;
@@ -325,6 +327,11 @@ li {
   padding-left: 245px;
 }
 
+
+
+._icons{
+  padding: 0
+
 .footer {
   background: #0e141d;
   color: #ffffff;
@@ -333,6 +340,7 @@ li {
   height: 125px;
   display: flex;
   padding: 30px 0px 0px 0px;
+
 }
 
 .footerLeft {
@@ -346,9 +354,6 @@ li {
   text-align: right;
 }
 
-ol {
-  padding: 0;
-}
 
 .white_down_arrow {
   width: 61px;
